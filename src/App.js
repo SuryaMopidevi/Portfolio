@@ -1,14 +1,15 @@
-import Naving from './component/Naving'
+// import Naving from './component/Naving'
 import Home from './component/Home'
 import './App.css';
-// scroll animation
-// loop animation
-// horizantal scroll
+// import SocialIcons from './component/practice';
+// import PhotoUpload from './component/photo upload';
 function App() {
   return (
     <div className="App">
-      <Naving />
+      {/* <Naving /> */}
       <Home />
+      {/* <PhotoUpload/> */}
+      {/* <SocialIcons/> */}
     </div>
   );
 }

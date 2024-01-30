@@ -1,0 +1,73 @@
+body{
+    /* background-color: rgb(10, 29, 241); */
+    background-image: url('blue\ wallpaper.jpeg');
+    color:aliceblue
+}
+Button{
+    background-color: rgb(63, 87, 243);
+    color : rgb(24, 23, 23);
+    padding : .5% .5% .5% .5%;
+    font-size: 18px;
+    font-weight: bold;
+    outline: 1px solid rgb(33, 150, 246);
+    margin-left: 10%;
+    border-radius: 12px;
+}
+
+Button:hover{
+    background-color: rgb(35, 12, 244);
+    color:rgb(247, 244, 244);
+    padding : .5% .5% .5% .5%;
+    text-align: bold;
+    outline :  1px solid rgb(34, 50, 226)
+}
+h1{
+    color:rgb(255, 238, 0);
+}
+.content{
+    margin-top: 5%;
+}
+.PhotoAdd{
+    margin-left: 60%;
+    margin-top: 0%;
+}
+p{
+    overflow: auto;
+    width: 500px;
+    height: 100px;
+}
+#icon{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border : 2px solid rgb(243, 102, 47);
+    font-size :20px;
+    color:rgb(28, 233, 21);
+    text-decoration: none;
+    margin : 30px 25px 30px 0px;
+}
+#icon:hover{
+    background: transparent;
+    border : 2px solid rgb(243, 102, 47);
+    box-shadow: 0 0 20px rgb(225, 230, 235);
+}
+
+/* .upload{
+    background-color: rgb(4, 36, 244);
+    color : white;
+    padding : 2% 2% 2% 2%;
+    font-size: 18px;
+    font-weight: bold;
+    outline: 1px solid rgb(33, 150, 246);
+}
+
+.upload:hover{
+    background-color: rgb(60, 122, 244);
+    color:black;
+    padding : 2% 2% 2% 2%;
+    text-align: bold;
+    outline :  1px solid rgb(34, 50, 226)
+} */
