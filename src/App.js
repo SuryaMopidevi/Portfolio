@@ -1,15 +1,11 @@
-// import Naving from './component/Naving'
+import Naving from './component/Naving'
 import Home from './component/Home'
-import './App.css';
-// import SocialIcons from './component/practice';
-// import PhotoUpload from './component/photo upload';
+import './component/naving.css'
 function App() {
   return (
     <div className="App">
-      {/* <Naving /> */}
+      <Naving />
       <Home />
-      {/* <PhotoUpload/> */}
-      {/* <SocialIcons/> */}
     </div>
   );
 }

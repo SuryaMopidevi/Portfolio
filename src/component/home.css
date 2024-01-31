@@ -1,9 +1,10 @@
 body{
     /* background-color: rgb(10, 29, 241); */
     background-image: url('blue\ wallpaper.jpeg');
-    color:aliceblue
+    color:aliceblue;
+    overflow:scroll;
 }
-Button{
+.aboutMe{
     background-color: rgb(125, 226, 244);
     color : rgb(24, 23, 23);
     padding : .5% .5% .5% .5%;
@@ -14,24 +15,23 @@ Button{
     border-radius: 12px;
 }
 
-Button:hover{
+.aboutMe:hover{
     color:rgb(52, 51, 51);
     padding : .5% .5% .5% .5%;
     text-align: bold;
     outline :  1px solid rgb(4, 233, 253);
     box-shadow: 0 0 20px rgb(252, 254, 254);
-    /* 0 0 20px rgb(249, 253, 253),0 0 20px rgb(231, 234, 234),
-    0 0 20px rgb(247, 251, 251),0 0 20px rgb(227, 233, 233); */
 }
 h1{
     color:rgb(255, 238, 0);
 }
 .content{
-    margin-top: 5%;
+    margin-top: 15%;
+    margin-left: 5%;
 }
-.PhotoAdd{
-    margin-left: 60%;
-    margin-top: 0%;
+.first{
+    display:flex;
+    gap:20%;
 }
 p{
     overflow: auto;
@@ -58,19 +58,36 @@ p{
 span{
     color : rgb(32, 216, 236);
 }
-/* .upload{
-    background-color: rgb(4, 36, 244);
-    color : white;
-    padding : 2% 2% 2% 2%;
+.upload{
+    background-color: rgb(125, 226, 244);
+    color : rgb(24, 23, 23);
+    padding : 1% 1% 1% 1%;
     font-size: 18px;
     font-weight: bold;
     outline: 1px solid rgb(33, 150, 246);
+    margin-left: 25%;
+    border-radius: 12px;
+    margin-bottom: 20px;
 }
 
 .upload:hover{
-    background-color: rgb(60, 122, 244);
-    color:black;
-    padding : 2% 2% 2% 2%;
+    color:rgb(52, 51, 51);
+    padding : .5% .5% .5% .5%;
     text-align: bold;
-    outline :  1px solid rgb(34, 50, 226)
-} */
+    outline :  1px solid rgb(4, 233, 253);
+    box-shadow: 0 0 20px rgb(252, 254, 254);
+}
+/* PhotoComponent.css */
+.PhotoAdd {
+    width: 500px;
+    height: 400px;
+    /* Add any additional styles as needed */
+  }
+  
+  .PhotoAdd img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Preserve aspect ratio while covering the container */
+    border-radius: 8px; /* Add rounded corners if desired */
+  }
+  
