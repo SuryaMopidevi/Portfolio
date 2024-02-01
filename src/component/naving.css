@@ -10,7 +10,7 @@
     align-items: center;
     z-index: 100%;
 }
-.logo{
+.logo {
     position:relative;
     font-size: 25px;
     color:aliceblue;
@@ -20,9 +20,9 @@
     padding-left: 10px;
 }
 
-.logo a:hover{
+.logo:hover{
     color:rgb(16, 241, 252);
-    box-shadow: 0 0 20px rgb(252, 254, 254);
+    /* box-shadow: 0 0 20px rgb(252, 254, 254); */
 }
 
 .navbar a{
@@ -34,11 +34,11 @@
     margin-left: 35px;
     transition: .3s;
     padding-top: 10px;
-    padding-right: 10px;
+    padding-right: 15px;
+    padding: 20px;
 }
 
 .navbar a:hover{
     color:rgb(16, 241, 252);
-    /* outline :  1px solid rgb(4, 233, 253); */
-    box-shadow: 0 0 20px rgb(252, 254, 254);
+    padding: 20px;
 }
