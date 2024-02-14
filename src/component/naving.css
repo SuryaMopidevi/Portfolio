@@ -12,8 +12,8 @@
 }
 .logo {
     position:relative;
-    font-size: 25px;
-    color:aliceblue;
+    font-size: 35px;
+    color:rgb(237, 239, 242);
     text-decoration: none;
     font-weight: 600;
     padding-top: 10px;
@@ -21,7 +21,7 @@
 }
 
 .logo:hover{
-    color:rgb(16, 241, 252);
+    color:rgb(248, 248, 27);
     /* box-shadow: 0 0 20px rgb(252, 254, 254); */
 }
 
