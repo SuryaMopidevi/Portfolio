@@ -9,17 +9,6 @@ export default function footer(props) {
         <div className="footer" ref={props.x}>
             <footer >
                 <div className='mainFooter'>
-                {/* <a className='logo1'  href='http://localhost:3000/#' alt=''><span>M</span>surya</a><br/> */}
-                    {/* <div className='part1'>
-                <a className='logo1'  href='http://localhost:3000/#' alt=''><span>M</span>surya</a><br/>
-                  <h5><FontAwesomeIcon  className='icon' icon={faPhone} size="2x" style={{ margin: '0 95px' ,color:'green'}} />+919014176709</h5> 
-              </div> */}
-                    {/* <div className='btn'>
-                    <input type="text" placeholder='enter message'/>
-                    <button style={{marginTop : '-20%'}}>Submit</button>
-                    
-                </div> */}
-
                     <div className='part2'>
                         <div className='icons'>
                             <a href='mailto:pavitrasurya.m20@iiits.in' alt='mail'><FontAwesomeIcon className='icon' icon={faEnvelope} size="1x" style={{ margin: '0 10px', color: 'red' }} /></a>
