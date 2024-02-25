@@ -52,7 +52,8 @@ export default function HealthStack() {
         h4:{
           paddingTop:'3%',
           paddingLeft:'65%',
-          color:'cyan'
+          color:'cyan',
+          fontWeight : 'bold'
         },
         first:{
           marginLeft:'-10%'
@@ -86,7 +87,7 @@ export default function HealthStack() {
                 sellers and consumers.</li><br/>
             <li>features including FAQ's,login ,register,product rating,product wishlist etc.</li>
           </ul>
-          <h4 style={styles.h4}>Github link</h4>
+          <a href='https://github.com/SuryaMopidevi/healthStack' style={styles.h4}>Github link</a>
         </div>
       </div>
     </div>
